@@ -2,3 +2,25 @@ theme: jekyll-theme-architect
 title: Camp Sci
 description: Welcome Campers!
 show_downloads: false
+
+
+defaults:
+  -
+    scope:
+    path: ""
+    type: "posts"
+    values:
+    layout: "default"
+  -
+    scope:
+    path: ""
+    type: "posts"
+    values: 
+    layout: "my-site"
+  -
+    scope:
+    path: "projects"
+    type: "pages"
+    values:
+    layout: "projcet"
+    author: "Mr. Hyde"
