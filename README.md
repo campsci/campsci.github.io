@@ -1,9 +1,5 @@
 <html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-		<!-- link to main stylesheet -->
-		
-	</head>
+	
 	<body>
 		<nav>
     		<ul>
