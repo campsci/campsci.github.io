@@ -12,6 +12,8 @@ Hello there Campers!
 
 Thank you for checking out Camp Sci, the place for lovers of all things science. First, let me walk you through a few things. I'm going to start this blog off by:
 
+<!--more-->
+
 Introducing the Chief Editor
 Letting you know what Camp Sci is all about
 Preparing you for what you're getting yourself into
