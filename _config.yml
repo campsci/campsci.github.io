@@ -13,7 +13,7 @@ defaults:
     layout: "default"
   -
     scope:
-    path: "posts"
+    path: "journey"
     type: "posts"
     values: 
     layout: "post"
