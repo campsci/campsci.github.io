@@ -17,6 +17,7 @@ defaults:
     type: "posts"
     values: 
     layout: "post"
+    excerpt_separator: <!--more-->
     author: "Camille Camejo"
   -
     scope:
