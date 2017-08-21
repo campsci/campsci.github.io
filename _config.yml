@@ -8,15 +8,16 @@ defaults:
   -
     scope:
     path: ""
-    type: "posts"
+    type: ""
     values:
     layout: "default"
   -
     scope:
-    path: ""
+    path: "posts"
     type: "posts"
     values: 
-    layout: "my-site"
+    layout: "post"
+    author: "Camille Camejo"
   -
     scope:
     path: "projects"
