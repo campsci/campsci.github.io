@@ -1,2 +1,2 @@
-# Hey It's CamCeez
+# Front Page
 
