@@ -6,7 +6,7 @@ categories: journey
 published: true
 ---
 
-# The Starting Line
+
 
 Hello there Campers! 
 
