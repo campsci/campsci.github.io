@@ -1,2 +1,34 @@
-# Front Page
+---
+layout: default
+title: Camp Scis
+---
+      
+	      <div class="blurb">
+        <section id="main-content">
+          {{ content }}
+          <ul>
+            {% for post in site.posts %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a><br>
+                {{ post.content | strip_html | truncatewords:20 }}
+              </li>
+            {% endfor %}
+          </ul>
+
+        </section>
+	  </div>
+        
+
+        <aside id="sidebar">
+         
+        </aside>
+        <footer>
+    		<ul>
+        		<li><a href="mailto:info@camp-sci.com">Email</a></li>
+        		<li><a href="https://instagram.com/camp.sci">Instagram</a></li>
+			</ul>
+	  </footer>
+  </body>
+
+
 
