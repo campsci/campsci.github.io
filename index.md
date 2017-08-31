@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Camp Scis
+title: Camp Sci
 ---
       
 	      <div class="blurb">
