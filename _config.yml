@@ -9,7 +9,7 @@ defaults:
     path: ""
     type: ""
     values:
-    layout: "default"
+    layout: "index"
   -
     scope:
     path: "journey"
