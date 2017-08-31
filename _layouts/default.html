@@ -7,8 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
 <header>
-	<h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+	<h1>{{ site.title }}</h1>
+        <h2>{{ site.description }}</h2>
 	</header>
   <body>
     <nav>
@@ -23,7 +23,20 @@
    
       <div class="container">
 	      
-        {{ content }}
+        <div class="blurb">
+        <section id="main-content">
+          {{ content }}
+          <ul>
+            {% for post in site.posts %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a><br>
+                {{ post.content | strip_html | truncatewords:20 }}
+              </li>
+            {% endfor %}
+          </ul>
+
+        </section>
+	  </div>
     </div><!-- /.container -->
         
 
