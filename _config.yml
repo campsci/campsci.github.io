@@ -3,25 +3,3 @@ description: Welcome Campers!
 
 
 
-defaults:
-  -
-    scope:
-    path: ""
-    type: ""
-    values:
-    layout: "index"
-  -
-    scope:
-    path: "journey"
-    type: "posts"
-    values: 
-    layout: "post"
-    excerpt_separator: <!--more-->
-    author: "Camille Camejo"
-  -
-    scope:
-    path: "projects"
-    type: "pages"
-    values:
-    layout: "projcet"
-    author: "Mr. Hyde"
