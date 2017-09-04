@@ -38,7 +38,7 @@ img {
   width: 100%;
 }
 
-#header ul li a.logo {
+.logo {
     height:140px;
     display:block;
     width:215px;
