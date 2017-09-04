@@ -46,6 +46,14 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
+#header ul li a.logo {
+    height:140px;
+    display:block;
+    width:215px;
+    margin-top:-61px;
+    padding: 0;
+}
+
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
