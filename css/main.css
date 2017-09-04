@@ -35,7 +35,7 @@ body {
   text-transform: uppercase;
 }
 
-.logo {
+a.logo {
     height:140px;
     display:inline;
     width:215px;
