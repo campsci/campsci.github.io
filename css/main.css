@@ -38,10 +38,7 @@ img {
   text-transform: uppercase;
 }
 
-ul li a.logo {
-    background: url("http://i48.tinypic.com/2mob6nb.png");
-    background-repeat: no-repeat;
-    background-position: top;
+.logo ul li {
     height:140px;
     display:block;
     width:215px;
