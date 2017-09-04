@@ -1,6 +1,52 @@
 ---
-layout: default
 title: Home
 permalink: /home/
 ---
+<!DOCTYPE html>
+<html>
+  <head>
+        
+    <title>{{ page.title }}</title>
+	  <!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+  </head>
 
+  <body>
+    <div class="navigation">
+    <ul>
+	    <li><a href="/about">About</a></li>
+	    <li><a href="/journey">The Journey</a></li>
+	    <li><a class="logo" href="/home"><img src="/campsciheaderlogo.png"></a></li>
+	    <li><a href="/resources">Resources</a></li>
+	    <li><a href="/projects">Projects</a></li>
+    </ul>
+  </div
+	    
+      <div class="container">
+	      
+        <div class="blurb">
+        <section id="main-content">
+          {{ content }}
+          <ul>
+            {% for post in site.posts %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a><br>
+                {{ post.content | strip_html | truncatewords:20 }}
+              </li>
+            {% endfor %}
+          </ul>
+
+        </section>
+	  </div>
+    </div><!-- /.container -->
+        
+
+        
+        <footer>
+    		<ul>
+        		<li><a href="mailto:info@camp-sci.com">Email</a></li>
+        		<li><a href="https://instagram.com/camp.sci">Instagram</a></li>
+			</ul>
+		</footer>
+  </body>
+</html>
