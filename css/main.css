@@ -1,6 +1,8 @@
 body {
-    margin: auto;
+    margin: 60px auto;
+    width: 70%;
 }
+
 img {
     position: absolute;
     top: 0; bottom:0; left: 10px; right:0;
@@ -18,16 +20,16 @@ img {
   margin: 0 auto;
   padding: 12px;
   list-style: none;
-  width: 800px;
+  width: auto;
   overflow: hidden;
   background-color: #333;
 }
 
 .navigation li {
   color: #666666;
-  display: block;
+  display: inline;
   text-align: center;
-  float: inherit;
+  float: left;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 100;
@@ -37,7 +39,7 @@ img {
 
 .logo ul li {
     height:140px;
-    display:block;
+    display:inline;
     width:215px;
     margin-top:-61px;
     padding: 0;
