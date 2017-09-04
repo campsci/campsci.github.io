@@ -7,6 +7,7 @@ img {
     top: 0; bottom:0; left: 10px; right:0;
     margin: auto;
 }
+
 .navigation {
   background-color: rgba(255, 255, 255, 0.9);
   height: auto;
@@ -16,12 +17,19 @@ img {
   top: 0;
   z-index: 999;
 }
+
 .navigation ul {
+  margin: 0;
   padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
 }
-.navigation li {
+
+.navigation li a {
   color: #666666;
   display: inline-block;
+  float: left;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 100;
@@ -30,6 +38,15 @@ img {
   text-transform: uppercase;
   width: 100%;
 }
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -47,6 +64,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
   background: #05A8AA;
   color: #FFF;
