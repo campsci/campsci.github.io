@@ -38,14 +38,6 @@ img {
   width: 100%;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-
 #header ul li a.logo {
     height:140px;
     display:block;
