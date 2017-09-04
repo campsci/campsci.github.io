@@ -10,6 +10,12 @@ html, body {
 
 body {
   align-items: center;
+  background-image: url
+    (/welcometocampsci.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background-color: #F36C34;
   display: flex;
   font-family: 'Raleway', sans-serif;
@@ -21,8 +27,6 @@ body {
 div.container {
   align-items: center;
   align-self: center;
-  background-image: url
-    (/welcometocampsci.jpg) center center;
   border-radius: 100%;
   display: flex;
   flex-direction: column;
@@ -37,7 +41,7 @@ h1 {
   font-size: 52px;
   font-weight: 900;
   line-height: 46px;
-  margin: 0 0 0 0;
+  margin: 0 0 60px 0;
   text-align: center;
   text-shadow: 0px 2px 4px rgba(34, 62, 66, .75);
   width: 50%;
