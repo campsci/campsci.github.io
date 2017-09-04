@@ -24,6 +24,13 @@ body {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/background-photo-mobile-devices.jpg);
+  }
+  
 div.container {
   align-items: center;
   align-self: center;
