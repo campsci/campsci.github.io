@@ -12,9 +12,6 @@ img {
   height: 40px;
   margin: auto;
   text-align: center;
-  position: fixed;
-  left: 0;
-  top: 0;
 }
 
 .navigation ul {
@@ -42,7 +39,7 @@ img {
     height:140px;
     display:block;
     width:215px;
-    margin-top:90px;
+    margin-top:-61px;
     padding: 0;
 }
 
