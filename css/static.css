@@ -10,8 +10,6 @@ html, body {
 
 body {
   align-items: center;
-  background-image: url
-    (campsci.github.io/welcometocampsci.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -59,9 +57,9 @@ a.btn {
   font-size: 18px; 
   letter-spacing: 1px;
   padding: 16px 32px;
-  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
   -webkit-transition: box-shadow 1s ease;
   transition: box-shadow 1s ease;
 }
