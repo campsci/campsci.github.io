@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
     margin-top: 90px;
     margin: 60px auto;
     width: 70%;
@@ -15,7 +14,7 @@ body {
 }
 
 .navigation ul {
-  margin: 0 auto;
+  margin: auto;
   padding: 12px;
   list-style: none;
   width: auto;
@@ -104,7 +103,7 @@ h3 {
 p {
   color: #333;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 100;
   line-height: 34px;
   min-width: 200px;
