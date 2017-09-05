@@ -23,7 +23,7 @@ body {
 
 .navigation li {
   padding: 0 14px;
-  display: block;
+  display: inline-block;
   text-align: center;
   float: left;
   font-family: 'Roboto', sans-serif;
