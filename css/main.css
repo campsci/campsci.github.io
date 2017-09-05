@@ -34,12 +34,10 @@ body {
 }
 
 .logo {
-    background: url("http://camp-sci.com/campsciheaderlogo.png");
-    background-repeat:no-repeat;
     height:140px;
-    display:block;
+    display: inline-block;
     width:215px;
-    margin-top: -230px;
+    margin-top: 0;
     padding: 0;
 }
 
