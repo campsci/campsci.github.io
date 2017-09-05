@@ -33,7 +33,7 @@ body {
   text-transform: uppercase;
 }
 
-.navigation a.logo {
+.logo {
     background: url("http://camp-sci.com/campsciheaderlogo.png");
     background-repeat:no-repeat;
     height:140px;
