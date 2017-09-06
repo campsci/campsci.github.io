@@ -7,7 +7,7 @@ body {
 }
 
 .navigation {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #F36C34;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -37,7 +37,8 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
- background-color: #F36C34;  
+ background-color: #F36C34;
+ text-decoration: underline;
 }
 
 .logo {
@@ -58,16 +59,10 @@ footer ul {
     list-style: none;
     font-weight: bold;
 }
+
 footer ul li {
     display: inline;
     margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
 }
 
 h1 {
