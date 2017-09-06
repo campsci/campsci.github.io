@@ -25,7 +25,7 @@ body {
   display: inline-block;
 }
 
-.navigation a:link, a:visited {
+.navigation a:link {
   margin: 0 auto;
   display: block;
   width: 120px;
