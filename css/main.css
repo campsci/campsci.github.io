@@ -23,6 +23,7 @@ body {
 
 .navigation li {
   display: inline-block;
+  text-shadow: 0px 2px 4px rgba(34, 62, 66, .75);
 }
 
 .navigation a:link {
