@@ -8,29 +8,36 @@ body {
 
 .navigation {
   background-color: rgba(255, 255, 255, 0.9);
-  height: 40px;
-  margin: auto;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .navigation ul {
-  margin: auto;
-  padding: 12px;
+  padding: 0;
   list-style: none;
-  width: auto;
   overflow: hidden;
 }
 
 .navigation li {
-  padding: 0 14px;
   display: inline-block;
+}
+
+a:link, a:visited {
+  margin: 0 auto;
+  display: block;
+  width: 120px;
+  font-weight: bold;
+  color: #FFFFFF;
   text-align: center;
-  float: left;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 100;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  padding: 4px;
+  text-decoration: none;
+}
+
+a:hove, a:active {
+ background-color: #F36C34;  
 }
 
 .logo {
