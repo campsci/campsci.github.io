@@ -36,7 +36,7 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-a:hove, a:active {
+a:hover, a:active {
  background-color: #F36C34;  
 }
 
