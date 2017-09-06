@@ -6,7 +6,7 @@ body {
     background-color: #FFF;
 }
 
-.navigation {
+#navigation {
   background-color: #F36C34;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -15,17 +15,17 @@ body {
   text-transform: uppercase;
 }
 
-.navigation ul {
+ul {
   padding: 0;
   list-style: none;
   overflow: hidden;
 }
 
-.navigation li {
+li {
   display: inline-block;
 }
 
-.navigation a:link {
+#navigation a:link {
   margin: 0 auto;
   display: block;
   width: 120px;
@@ -36,7 +36,7 @@ body {
   text-decoration: none;
 }
 
-.navigation a:hover, a:active {
+#navigation a:hover, a:active {
  background-color: #F36C34;
  text-decoration: underline;
 }
