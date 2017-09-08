@@ -1,0 +1,57 @@
+---
+title: Home
+permalink: /home/
+---
+<!DOCTYPE html>
+<html>
+  <head>
+        
+    <title>{{ page.title }}</title>
+	  <!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+  </head>
+	
+	<div class="navigation">
+	    <header> 
+		    <ul>
+			    <li><a href="/about">About</a></li>
+			    <li><a href="/journey">Blog</a></li>
+			    <li><img class="logo" src="/campsciwhite.png"></li>
+			    <li><a href="/resources">Resources</a></li>
+			    <li><a href="/projects">Projects</a></li>
+			    <li>Contact</li>
+	    	    </ul>
+	    </header>
+	</div>
+
+ 
+	<body>			
+    
+      <div class="container">
+	      
+        <div class="blurb">
+        <section id="main-content">
+          {{ content }}
+          <ul>
+            {% for post in site.posts %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a><br>
+                {{ post.content | strip_html | truncatewords:20 }}
+              </li>
+            {% endfor %}
+          </ul>
+
+        </section>
+	  </div>
+    </div><!-- /.container -->
+        
+
+        
+        <footer>
+    		<ul>
+        		<li><a href="mailto:info@camp-sci.com">Email</a></li>
+        		<li><a href="https://instagram.com/camp.sci">Instagram</a></li>
+			</ul>
+		</footer>
+  </body>
+</html>
