@@ -14,21 +14,6 @@ body {
     display: table;
 }
 
-.nav-primary:after,
-.site-container:after,
-.site-header:after,
-.wrap:after {
-    clear: both;
-    content: " ";
-    display: table;
-}
-
-.site-header {
-}
-
-.sub-menu{
-}
-
 .site-header .sub-menu .submenu {
     margin-top: -42px;
 }
