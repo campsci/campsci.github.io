@@ -176,20 +176,6 @@ site-title {
     position: static;
 }
 
-.nav-primary input {
-	border-bottom: 1px solid #ddd;
-	border-left: 0;
-	border-top: 0;
-	border-right: 0;
-	font-family: 'Playfair Display', serif;
-	font-size: 11px;
-	font-style: italic;
-	font-weight: 400;
-	letter-spacing: 1px;
-	line-height: 1;
-	padding: 7px;
-	width: 200px;
-}
 
 .genesis-nav-menu li.nav-space{
 width: 250px;
@@ -198,7 +184,7 @@ width: 250px;
 .nav-primary {
 	background: #fff;
 	border-top: 1px solid #A6A8AB;
-    border-bottom: 1px solid #A6A8AB;
+        border-bottom: 1px solid #A6A8AB;
 	margin: 0 0 80px auto;
 	max-width: 960px;
 	padding: 0;
