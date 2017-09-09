@@ -18,6 +18,22 @@
 	z-index: -9999;
 }
 
+.site-title {
+	background: url("http://campsci.github.io/campscilogo copy.png");
+	background-repeat:no-repeat;
+    height:auto;
+    display:block;
+    width:164px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 9999;
+}
 .navigation ul {
   padding: 0;
   list-style: none;
