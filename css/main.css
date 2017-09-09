@@ -6,6 +6,298 @@ body {
     background-color: #FFF;
 }
 
+.nav-primary:before,
+.site-container:before,
+.site-header:before,
+.wrap:before {
+    content: " ";
+    display: table;
+}
+
+.nav-primary:after,
+.site-container:after,
+.site-header:after,
+.wrap:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.site-header {
+}
+
+.sub-menu{
+}
+
+.site-header .sub-menu .submenu {
+    margin-top: -42px;
+}
+
+.site-header .genesis-nav-menu li li {
+    margin-left: 0;
+}
+
+.site-header .genesis-nav-menu {
+    margin-top: 0px;
+}
+
+.site-header ul.genesis-nav-menu {
+    float: none;
+}
+
+.genesis-nav-menu,
+.site-description,
+.site-header .title-area,
+.site-title {
+    text-align: center;
+}
+
+.site-container {
+    margin: 0 auto;
+    width: 100%;
+}
+.site-inner, .wrap {
+    clear: both;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.wrap {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.site-header {
+    padding: 0;
+}
+
+.title-area {
+}
+
+p.site-description {
+    display: none;
+}
+
+.header-full-width .title-area {
+    width: 188px;
+    margin: 1px auto -124px 40.5%;
+    position: relative;
+    z-index: 9999;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.site-title > a {
+    display: block;
+    height: 192px;
+    position: relative;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+
+.site-title a {
+    background-image: url(http://campsci.github.io/campscilogo copy.png)!important;
+    background-repeat: no-repeat;
+    background-size: 164px auto;
+    background-position: center;
+}
+
+.site-title a.smaller {
+    background-image: url(http://campsci.github.io/campscilogo copy.png)!important;
+    background-repeat: no-repeat;
+    background-size: 107px auto;
+}
+
+.header-image .site-description {
+    line-height: 0;
+}
+
+.site-description {
+    font-family: 'Georgia', serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.site-description,
+.site-title {
+    margin-bottom: 0;
+}
+
+.header-image .site-description,
+.header-image .site-title {
+    display: block;
+    text-indent: -9999px;
+}
+
+.title-area {
+}
+
+p.site-description {
+    display: none;
+}
+
+.header-full-width .title-area {
+    width: 188px;
+    margin: 1px auto -124px 40.5%;
+    position: relative;
+    z-index: 9999;
+}
+
+site-title {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.genesis-nav-menu {
+    background: #fff;
+    clear: both;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+.genesis-nav-menu .menu-item {
+    display: inline-block;
+    text-align: left;
+}
+
+.genesis-nav-menu a {
+    color: #F36C34;
+    display: block;
+    padding: 15px 10px;
+}
+
+.genesis-nav-menu a:hover,
+.genesis-nav-menu .current-menu-item > a,
+.genesis-nav-menu .sub-menu .current-menu-item > a:hover {
+    color: #41acc7;
+}
+
+.genesis-nav-menu .sub-menu {
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -ms-transition: opacity .4s ease-in-out;
+    -o-transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out;
+    z-index: -100;
+    width: 200px;
+    margin-top: 1px;
+}
+
+.genesis-nav-menu .sub-menu a {
+    background-color: #4F4F4F;
+    border-top: none;
+    font-size: 13px;
+    position: relative;
+    width: 198px;
+}
+
+.genesis-nav-menu .sub-menu .sub-menu {
+    margin: -42px 0 0 198px;
+}
+
+.genesis-nav-menu menu-item:hover {
+    position: static;
+}
+
+.nav-primary input {
+	border-bottom: 1px solid #ddd;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 11px;
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 1;
+	padding: 7px;
+	width: 200px;
+}
+
+.genesis-nav-menu li.nav-space{
+width: 250px;
+}
+
+.nav-primary {
+	background: #fff;
+	border-top: 1px solid #A6A8AB;
+    border-bottom: 1px solid #A6A8AB;
+	margin: 0 0 80px auto;
+	max-width: 960px;
+	padding: 0;
+}
+
+.nav-primary:before {
+    border-top: 1px solid #A6A8AB;
+    display: block;
+    position: relative;
+    z-index: 7777;
+    bottom: 9px;
+}
+.nav-primary:after {
+    border-top: 1px solid #A6A8AB;
+    display: block;
+    padding-bottom: 0px;
+    position: relative;
+    z-index: 7777;
+    top: 9px;
+}
+
+.nav-primary .genesis-nav-menu a {
+	color: #173821;
+}
+
+.nav-primary .genesis-nav-menu .sub-menu a {
+    color: #FFFFFF;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 16px;
+}
+
+.nav-primary .genesis-nav-menu a:hover,
+.nav-primary .genesis-nav-menu .current-menu-item > a,
+.nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
+	color: #41acc7;
+}
+
+nav {
+	clear: both;
+}
+ 
+.sub-menu-toggle,
+.menu-toggle {
+	display: none;
+	visibility: hidden;
+}
+
+
+
+/* Old CSS 
+
 .navigation {
   background-color: #F36C34;
   text-align: center;
@@ -169,3 +461,4 @@ ul.posts li {
   border: 1px solid #05A8AA;
   color: #FFF;
 }
+*/
