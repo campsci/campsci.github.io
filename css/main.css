@@ -53,7 +53,6 @@ p.site-description {
 }
 
 .title-area {
-    width: 164px;
     position: relative;
     z-index: 9999;
 }
@@ -81,8 +80,6 @@ p.site-description {
 
 
 .site-title {
-	width: 690px;
-	height: auto;
 	position: relative;
         z-index: 9999;
 	background-image: url("http://campsci.github.io/campscilogo copy.png");
@@ -100,7 +97,6 @@ p.site-description {
 }
 
 .title-area {
-    width: 188px;
     margin: 1px auto -124px 40.5%;
     position: relative;
     z-index: 9999;
