@@ -81,15 +81,15 @@ p.site-description {
 
 
 .site-title {
-	width: 690px;
+	width: 164px;
 	height: auto;
 	position: relative;
         z-index: 9999;
-	background-image: url("http://campsci.github.io/campscilogo copy.png");
+	background: url("http://i48.tinypic.com/2mob6nb.png");
 	background-repeat:no-repeat;
-	height: auto;
+	height:140px;
 	display:block;
-	width:164px;
+	width:215px;
 	margin-top:-61px;
 	padding: 0;
 }
@@ -99,7 +99,7 @@ p.site-description {
     display: none;
 }
 
-.title-area {
+.header-full-width .title-area {
     width: 188px;
     margin: 1px auto -124px 40.5%;
     position: relative;
@@ -113,11 +113,6 @@ site-title {
     line-height: 1.2;
     text-align: center;
     text-transform: uppercase;
-}
-
-img.site-title {
-	width: 164px;
-	height: auto;
 }
 
 .genesis-nav-menu {
