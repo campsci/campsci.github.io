@@ -57,7 +57,7 @@
 }
 
 .navigation a:hover, a:active {
- background-color: #F36C34;
+ color: #F36C34;
  text-decoration: underline;
 }
 
