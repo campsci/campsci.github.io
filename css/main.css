@@ -81,15 +81,14 @@ p.site-description {
 
 
 .site-title {
-	width: 164px;
-	height: auto;
 	position: relative;
         z-index: 9999;
-	background: url("http://i48.tinypic.com/2mob6nb.png");
+	background: url("http://campsci.github.io/campscilogo copy.png");
 	background-repeat:no-repeat;
-	height:140px;
+	background-size: 164px auto;
+	background-position-x: center;
+	background-position-y: center;
 	display:block;
-	width:215px;
 	margin-top:-61px;
 	padding: 0;
 }
@@ -190,9 +189,12 @@ site-title {
     position: static;
 }
 
+a {
+	text-decoration: none;
+}
 
-.genesis-nav-menu li.nav-space{
-width: 250px;
+.genesis-nav-menu li.nav-space {
+	width: 250px;
 }
 
 .nav-primary {
