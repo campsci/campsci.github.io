@@ -92,28 +92,12 @@ p.site-description {
     line-height: 1.2;
     text-align: center;
     text-transform: uppercase;
-}
-
-.site-title > a {
-    display: block;
-    height: 192px;
-    position: relative;
-    margin: 0 auto;
-    text-indent: -9999px;
-}
-
-.site-title a {
     background-image: url(http://campsci.github.io/campscilogo copy.png)!important;
     background-repeat: no-repeat;
     background-size: 164px auto;
     background-position: center;
 }
 
-.site-title a.smaller {
-    background-image: url(http://campsci.github.io/campscilogo copy.png)!important;
-    background-repeat: no-repeat;
-    background-size: 107px auto;
-}
 
 .header-image .site-description {
     line-height: 0;
