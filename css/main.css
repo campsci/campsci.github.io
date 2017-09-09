@@ -58,16 +58,6 @@ p.site-description {
     z-index: 9999;
 }
 
-.site-title {
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    line-height: 1.2;
-    text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    z-index: 9999;
-}
 
 
 .header-image .site-description {
@@ -90,7 +80,7 @@ p.site-description {
 }
 
 
-img.site-title {
+.site-title {
 	width: 164px;
 	height: auto;
 	position: relative;
@@ -103,7 +93,7 @@ img.site-title {
 	margin-top:-61px;
 	padding: 0;
 }
-}
+
 
 p.site-description {
     display: none;
