@@ -36,7 +36,7 @@ body {
 .site-inner, .wrap {
     clear: both;
     margin: 0 auto;
-    max-width: 960px;
+    width: 960px;
 }
 
 .wrap {
