@@ -93,7 +93,10 @@ p.site-description {
     text-indent: -9999px;
 }
 
-.title-area {
+img.site-title {
+	width: 164px;
+	height: auto;
+	align: center;
 }
 
 p.site-description {
