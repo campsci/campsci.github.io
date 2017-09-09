@@ -6,14 +6,6 @@ body {
     background-color: #FFF;
 }
 
-.nav-primary:before,
-.site-container:before,
-.site-header:before,
-.wrap:before {
-    content: " ";
-    display: table;
-}
-
 .site-header .sub-menu .submenu {
     margin-top: -42px;
 }
