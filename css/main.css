@@ -96,6 +96,14 @@ img.site-title {
 	align: center;
 	position: relative;
         z-index: 9999;
+	background: url("http://i48.tinypic.com/2mob6nb.png");
+	background-repeat:no-repeat;
+	height:140px;
+	display:block;
+	width:215px;
+	margin-top:-61px;
+	padding: 0;
+}
 }
 
 p.site-description {
