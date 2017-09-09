@@ -81,7 +81,7 @@ p.site-description {
 
 
 .site-title {
-	max-width: 690px;
+	width: 690px;
 	height: auto;
 	position: relative;
         z-index: 9999;
