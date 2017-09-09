@@ -189,8 +189,10 @@ site-title {
     position: static;
 }
 
-a {
-	text-decoration: none;
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: none;
 }
 
 .genesis-nav-menu li.nav-space {
