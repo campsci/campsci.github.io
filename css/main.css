@@ -145,7 +145,6 @@ site-title {
 	margin-left: auto;
 	margin-top: -61px;
 	text-indent: -5000px;
-	z-index: 9999px;
 }
 
 .genesis-nav-menu {
@@ -230,7 +229,7 @@ a:-webkit-any-link {
 }
 
 .genesis-nav-menu li.nav-space {
-	width: 250px;
+	width: 192px;
 }
 
 .nav-primary {
