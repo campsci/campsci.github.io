@@ -139,7 +139,7 @@ site-title {
 .site-title > a {
 	display: block;
 	height: 192px;
-	width: 192px;
+	width: auto;
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
