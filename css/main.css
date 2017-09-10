@@ -138,11 +138,13 @@ site-title {
 
 .site-title > a {
 	display: block;
-	height: 109px;
+	height: 192px;
 	width: 192px;
 	position: relative;
-	margin: 0 auto;
-	text-indent: -9999px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -61px;
+	text-indent: -5000px;
 	z-index: 9999px;
 }
 
