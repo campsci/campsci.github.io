@@ -83,13 +83,13 @@ p.site-description {
 .site-title {
 	position: absolute;
         z-index: 9999;
-	background-image: url(/campscilogo copy.png);
+	background-image: url("http://campsci.github.io/campscilogocopy.png")!important;
 	background-repeat:no-repeat;
 	background-size: 164px auto;
 	background-position-x: center;
 	background-position-y: center;
+	background-color: #FFFFFF;
 	display:block;
-	margin-top:-61px;
 	padding: 0;
 }
 
