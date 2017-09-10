@@ -1,3 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin: 0px 0px 10px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin-top: 90px;
@@ -56,6 +75,7 @@ p.site-description {
     width: 164px;
     position: relative;
     z-index: 9999;
+    margin: 1px auto -124px 40.5%;
 }
 
 
@@ -92,6 +112,7 @@ p.site-description {
         z-index: 9999;
 	display:block;
 	padding: 0;
+	width: 164px;
 }
 
 
@@ -117,10 +138,12 @@ site-title {
 
 .site-title > a {
 	display: block;
-	height: 192px;
+	height: 109px;
+	width: 192px;
 	position: relative;
 	margin: 0 auto;
 	text-indent: -9999px;
+	z-index: 9999px;
 }
 
 .genesis-nav-menu {
@@ -212,7 +235,7 @@ a:-webkit-any-link {
 	background: #fff;
 	border-top: 1px solid #A6A8AB;
         border-bottom: 1px solid #A6A8AB;
-	margin: 0 0 80px auto;
+	margin: 0 0 60px auto;
 	max-width: 960px;
 	padding: 0;
 	z-index: -9999;
