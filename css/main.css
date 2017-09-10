@@ -75,7 +75,7 @@ p.site-description {
     width: 164px;
     position: relative;
     z-index: 9999;
-    margin: 1px 35% 0px 35%;
+    margin-left: 28%;
 }
 
 
@@ -111,8 +111,9 @@ p.site-description {
 	position: absolute;
         z-index: 9999;
 	display:block;
+	left: 50%;
 	padding: 0;
-	width: 164px;
+	width: inherit;
 }
 
 
@@ -139,10 +140,7 @@ site-title {
 .site-title > a {
 	display: block;
 	height: 192px;
-	width: auto;
 	position: relative;
-	margin-right: auto;
-	margin-left: auto;
 	margin-top: -61px;
 	text-indent: -5000px;
 }
@@ -168,7 +166,7 @@ site-title {
 .genesis-nav-menu a {
     color: #F36C34;
     display: block;
-    padding: 15px 10px;
+    padding: 0px 10px;
 }
 
 .nav-primary input {
