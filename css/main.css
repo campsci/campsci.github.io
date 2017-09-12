@@ -72,10 +72,8 @@ p.site-description {
 }
 
 .title-area {
-    width: 100%;
     position: relative;
     z-index: 9999;
-    margin-left: 36%;
 }
 
 
