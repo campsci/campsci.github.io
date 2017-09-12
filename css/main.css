@@ -54,13 +54,15 @@ body {
 }
 .site-inner, .wrap {
     clear: both;
-    margin: 0 auto;
     max-width: 960px;
+    min-width: 760px;
 }
 
 .wrap {
     padding-left: 5%;
     padding-right: 5%;
+    margin-top: -35px;
+    margin-bottom: -35px;
 }
 
 .site-header {
