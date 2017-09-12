@@ -107,13 +107,13 @@ p.site-description {
 	background-color: #FFFFFF;
 }*/
 
-img .site-title a {
+img .site-title {
 	position: absolute;
         z-index: 9999;
 	display:block;
 	padding: 0;
 	width: 164px;
-	height: auto;
+	height: 164px;
 	z-index: 9999;
 }
 
