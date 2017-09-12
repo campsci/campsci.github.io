@@ -110,7 +110,7 @@ p.site-description {
 img .site-title {
 	position: absolute;
         z-index: 9999;
-	display:block;
+	display: inline-block;
 	padding: 0;
 	width: 164px;
 	height: 164px;
