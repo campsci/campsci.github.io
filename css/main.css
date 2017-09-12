@@ -76,6 +76,7 @@ p.site-description {
 .title-area {
     position: relative;
     z-index: 9999;
+    background-color: #FFFFFF;
 }
 
 
