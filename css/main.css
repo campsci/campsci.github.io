@@ -99,14 +99,15 @@ p.site-description {
 .site-title {
     margin-bottom: 0;
 }
-/*.site-title a {
+
+.site-title a {
 	background-image: url("http://campsci.github.io/campscilogocopy.png")!important;
 	background-repeat:no-repeat;
 	background-size: 164px auto;
 	background-position-x: center;
 	background-position-y: center;
 	background-color: #FFFFFF;
-}*/
+}
 
 .site-title {
 	position: relative;
