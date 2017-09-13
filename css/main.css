@@ -25,10 +25,6 @@ body {
     background-color: #FFF;
 }
 
-.site-header .sub-menu .submenu {
-    margin-top: -42px;
-}
-
 .site-header .genesis-nav-menu li li {
     margin-left: 0;
 }
@@ -63,7 +59,7 @@ body {
     padding-right: 5%;
 }
 
-.nav-primary .wrap ul {
+.nav-primary ul {
 	list-style: none;
 	position: relative;
 	float: left;
@@ -71,7 +67,7 @@ body {
 	padding: 0;
 }
 
-.nav-primary .wrap ul {
+.nav-primary ul {
 	display: block;
 	color: #333;
 	text-decoration: none;
@@ -79,21 +75,21 @@ body {
 	padding: 0 15px;
 }
 
-.nav-primary .wrap ul li {
+.nav-primary ul li {
 	position: relative;
 	margin: 0;
 	padding: 0;
 }
 
-.nav-primary .wrap ul li.current-menu-item {
+.nav-primary ul li.current-menu-item {
 	background: #ddd;
 }
 
-.nav-primary .wrap ul li:hover {
+.nav-primary ul li:hover {
 	background: #f6f6f6;
 }
 
-.nav-primary .wrap ul ul {
+.nav-primary ul ul {
 	display: none;
 	position: absolute;
 	top: 100%;
@@ -102,12 +98,12 @@ body {
 	padding: 0;
 }
 
-.nav-primary .wrap ul ul li {
+.nav-primary ul ul li {
 	float: none;
 	width: 200px;
 }
 
-.nav-primary .wrap ul li:hover > ul {
+.nav-primary ul li:hover > ul {
 	display: block;
 }
 
