@@ -67,14 +67,6 @@ body {
 	padding: 0;
 }
 
-.nav-primary ul {
-	display: block;
-	color: #333;
-	text-decoration: none;
-	line-height: 32px;
-	padding: 0 15px;
-}
-
 .nav-primary ul li {
 	position: relative;
 	margin: 0;
@@ -149,7 +141,6 @@ p.site-description {
 	background-size: 164px auto;
 	background-position-x: center;
 	background-position-y: center;
-	background-color: #FFFFFF;
 }
 
 .site-title {
