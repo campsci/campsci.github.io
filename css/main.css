@@ -108,7 +108,7 @@ p.site-description {
     display: none;
 }
 
-.title-area {
+#title-area {
     position: relative;
     z-index: 9999;
 }
