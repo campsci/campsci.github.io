@@ -77,11 +77,12 @@ body {
 	background: #ddd;
 }*/
 
-.nav-menu li {
+li {
 	text-align: center;
+	display: inline-block;
 }
 
-.nav-menu li a, .dropbtn {
+li a, .dropbtn {
 	display: inline-block;
 	color: white;
 	background-color: green;
@@ -90,7 +91,7 @@ body {
 	text-decoration: none;
 }
 
-.nav-menu li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover .dropbtn {
 	background-color: green;
 	/*display: block;*/
 }
