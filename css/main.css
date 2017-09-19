@@ -59,6 +59,7 @@ body {
     padding-right: 5%;
 }
 
+/*
 .nav-primary ul {
 	list-style: none;
 	position: relative;
@@ -78,8 +79,9 @@ body {
 
 .nav-primary ul li:hover {
 	background: #f6f6f6;
-}
+}*/
 
+/*
 .nav-primary ul ul {
 	display: none;
 	position: absolute;
@@ -87,16 +89,18 @@ body {
 	left: 100;
 	background: #fff;
 	padding: 0;
-}
+}*/
 
+/*
 .nav-primary ul ul li {
 	float: none;
 	width: 200px;
-}
+}*/
 
+/*
 .nav-primary ul li:hover > ul {
 	display: block;
-}
+}*/
 
 .site-header {
     padding: 0;
@@ -180,6 +184,7 @@ site-title {
 	text-indent: -5000px;
 }
 
+/*
 .genesis-nav-menu {
     clear: both;
     font-family: 'Roboto', sans-serif;
@@ -362,7 +367,7 @@ ul {
   list-style: none;
   overflow: hidden;
 }
-
+*/
 /* Hoverable Dropdown*/
 .dropbtn {
 	background-color: #4CAF50;
