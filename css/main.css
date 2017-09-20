@@ -82,7 +82,7 @@ li {
 	display: inline-block;
 }
 
-li a, .dropbtn {
+li a.navlist, .dropbtn {
 	display: inline-block;
 	color: white;
 	background-color: green;
@@ -91,7 +91,7 @@ li a, .dropbtn {
 	text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a.navlist:hover, .dropdown:hover .dropbtn {
 	background-color: green;
 	/*display: block;*/
 }
