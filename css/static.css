@@ -35,7 +35,7 @@ div.container {
 
 h1 { 
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: "Scripta Gothic", serif;
   font-size: 72px;
   font-weight: 900;
   line-height: 46px;
@@ -67,4 +67,10 @@ a.btn:hover {
   box-shadow: 0px 4px 4px rgba(34, 62, 66, .5);
   -webkit-transition: box-shadow 1s ease;
   transition: box-shadow 1s ease;
+}
+
+/* Font */
+@font-face {
+  font-family: "Scripta Gothic";
+  src: url(http://www.campsci.github.io/Scripta%20Gothic.otf) format("truetype");
 }
