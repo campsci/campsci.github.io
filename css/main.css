@@ -291,7 +291,7 @@ a:-webkit-any-link {
         border-bottom: 1px solid #A6A8AB;
 	margin: 0 0 60px auto;
 	max-width: 960px;
-	padding: 20px;
+	padding: 0px;
 	z-index: -9999;
 }
 /*
