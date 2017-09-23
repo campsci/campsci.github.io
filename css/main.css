@@ -95,7 +95,7 @@ li a.navlist:hover, .dropdown:hover .dropbtn {
 	/*display: block;*/
 }
 
-img.leadingimg {
+.leadingimg {
 	background: url('/nature2.jpg');
 }
 
