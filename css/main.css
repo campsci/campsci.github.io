@@ -91,7 +91,7 @@ li a.navlist, .dropbtn {
 }
 
 li a.navlist:hover, .dropdown:hover .dropbtn {
-	background-color: green;
+	font-weight: bold;
 	/*display: block;*/
 }
 
