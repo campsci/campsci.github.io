@@ -69,8 +69,3 @@ a.btn:hover {
   transition: box-shadow 1s ease;
 }
 
-/* Font */
-@font-face {
-  font-family: "Scripta Gothic";
-  src: url(http://www.campsci.github.io/Scripta%20Gothic.otf) format("truetype");
-}
