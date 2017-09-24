@@ -27,6 +27,18 @@ body {
 
 h1.leadingimg {
 	color: #FFF;
+	padding-top: 10%;
+	font-size: 80px;
+}
+
+div.leadingimg {
+	background: url('/nature2.jpg');
+	background-size: cover;
+	height: 450px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /*
@@ -98,12 +110,6 @@ li a.navlist, .dropbtn {
 li a.navlist:hover, .dropdown:hover .dropbtn {
 	font-weight: bold;
 	/*display: block;*/
-}
-
-div.leadingimg {
-	background: url('/nature2.jpg');
-	background-size: cover;
-	height: 450px;
 }
 
 /*
