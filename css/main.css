@@ -24,11 +24,16 @@ body {
     background-color: #FFF;
 }
 
+@font-face {
+	font-family: "Scripta";
+	src: url(http://www.campsci.github.io/Scripta Gothic.ttf) format("truetype");
+}
+
 h1.leadingimg {
 	color: #FFF;
 	font-size: 80px;
 	text-transform: uppercase;
-	font-family: 'Playfair Display', serif;
+	font-family: "Scripta", serif;
 }
 
 h1.top {
