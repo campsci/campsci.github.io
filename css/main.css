@@ -26,12 +26,11 @@ body {
 
 h1.leadingimg {
 	color: #FFF;
-	padding-top: 10%;
 	font-size: 80px;
 }
 
 h1.top {
-	padding: 10%;
+	padding-top: 10%;
 }
 
 div.leadingimg {
