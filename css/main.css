@@ -27,6 +27,8 @@ body {
 h1.leadingimg {
 	color: #FFF;
 	font-size: 80px;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
 }
 
 h1.top {
