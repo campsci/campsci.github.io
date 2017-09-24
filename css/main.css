@@ -21,7 +21,6 @@ body {
     font-family: 'Roboto', sans-serif;
     margin-top: 90px;
     margin: 60px auto;
-    width: 70%;
     background-color: #FFF;
 }
 
@@ -29,6 +28,10 @@ h1.leadingimg {
 	color: #FFF;
 	padding-top: 10%;
 	font-size: 80px;
+}
+
+h1.top {
+	padding: 10%;
 }
 
 div.leadingimg {
