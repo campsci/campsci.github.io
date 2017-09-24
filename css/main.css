@@ -24,6 +24,8 @@ body {
     background-color: #FFF;
 }
 
+/*First section with large image*/
+
 h1.leadingimg {
 	color: #FFF;
 	font-size: 53px;
@@ -42,6 +44,38 @@ div.leadingimg {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+/*Second section with column structure*/
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+
+#firstcol {
+	width: 290px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#secondcol {
+	width: 294px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#thirdcol {
+	width: 270px;
+	padding: 5px 15px;
+	float: left;
+}
+
+footer {
+	clear: both;
+	padding: 0 15px;
 }
 
 /*
