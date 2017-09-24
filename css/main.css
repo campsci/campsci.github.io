@@ -17,6 +17,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px 0px 10px;
 }
 
+h3 {
+	color: #ce7c58;
+	text-transform: uppercase;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     margin-top: 90px;
@@ -64,7 +69,6 @@ h1.pathways {
 	width: 290px;
 	float: left;
 	padding: 5px 15px;
-	color: #ce7c58;
 }
 
 #secondcol {
@@ -72,14 +76,12 @@ h1.pathways {
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
-	color: #ce7c58;
 }
 
 #thirdcol {
 	width: 270px;
 	padding: 5px 15px;
 	float: left;
-	color: #ce7c58;
 }
 
 footer {
