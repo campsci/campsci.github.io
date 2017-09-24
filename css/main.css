@@ -100,9 +100,10 @@ li a.navlist:hover, .dropdown:hover .dropbtn {
 	/*display: block;*/
 }
 
-.leadingimg {
+div.leadingimg {
 	background: url('/nature2.jpg');
 	background-size: cover;
+	height: 450px;
 }
 
 /*
