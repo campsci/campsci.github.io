@@ -39,13 +39,13 @@ h1.leadingimg {
 }
 
 h1.top {
-	padding-top: 10%;
+	padding-top: 15%;
 }
 
 div.leadingimg {
 	background: url('/nature2.jpg');
 	background-size: cover;
-	height: 450px;
+	height: 600px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
