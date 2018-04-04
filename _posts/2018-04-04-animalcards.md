@@ -6,8 +6,6 @@ categories: journey
 published: true
 ---
 
-<!DOCTYPE html>
-<html>
 <head>
 	<meta charset="utf-8">
 	<title>Animal Trading Cards</title>
@@ -34,4 +32,4 @@ published: true
 		</div>
 	</div>
 </body>
-</html>
+
