@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Hanging by the Strings"
-date: 2017-08-23 23:00:00 -0500
 categories: journey
 published: true
 ---
