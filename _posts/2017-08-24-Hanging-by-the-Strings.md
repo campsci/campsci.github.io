@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hanging by the Strings"
+title: "Animal"
 categories: journey
 date: 2017-08-23 23:00:00 -0500
 published: true
