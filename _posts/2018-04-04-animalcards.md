@@ -8,7 +8,6 @@ published: true
 
 <head>
 	<meta charset="utf-8">
-	<title>Animal Trading Cards</title>
     <link href="/css/styles.css" rel="stylesheet">
 </head>
 <body>
