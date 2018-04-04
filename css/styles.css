@@ -1,0 +1,56 @@
+div {
+    width: 350px;
+    font-family: Gadget;
+    text-align: center;
+    color: darkslategray;
+}
+
+.card {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.20);
+    border-style: solid;
+    border: 10px;
+    padding: 20px;
+}
+
+.card > .facts {
+    padding: 5px;
+    border: 20px;
+    border-style: solid;
+    border-color: aquamarine;
+}
+
+.fun-facts {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0px 5px;
+    font-family: Gadget;
+}
+
+.facts {
+    width: 300px;
+}
+ul {
+    font-style: italic;
+    list-style: none;
+    text-align: left;
+}
+
+span {
+    font-weight: bold;
+    font-style: normal;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 10px 5px;
+    color: darkslategray;
+}
+
+.title {
+    border-color: aquamarine;
+    border: 1px;
+}
+
