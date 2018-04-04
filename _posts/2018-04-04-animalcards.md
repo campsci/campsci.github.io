@@ -5,6 +5,7 @@ date: 2018-04-04 23:00:00 -0500
 categories: journey
 published: true
 ---
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
